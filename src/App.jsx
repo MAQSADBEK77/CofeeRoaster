@@ -13,11 +13,12 @@ import "./assets/components/menu.scss";
 function App() {
   const [menu, setMenu] = useState(false);
   function menu_toogle() {
-    setMenu(!menu)
+    setMenu(!menu);
   }
   return (
     <>
       <BrowserRouter>
+        <div className="top">
         <div className="menu">
           <div className="logo">
             <a href="#">
@@ -26,13 +27,13 @@ function App() {
           </div>
           <div className="right">
             <ul className={menu ? "ul menu-burger-open" : "ul"}>
-              <li>
+              <li onClick={menu_toogle}>
                 <NavLink to="/">Home</NavLink>
               </li>
-              <li>
+              <li onClick={menu_toogle}>
                 <NavLink to="about">About</NavLink>
               </li>
-              <li>
+              <li onClick={menu_toogle}>
                 <NavLink to="suscribe">Create your plan</NavLink>
               </li>
             </ul>
@@ -42,7 +43,8 @@ function App() {
               <div className="x"></div>
             </div>
           </div>
-        </div>
+          </div>
+          </div>
         <div className="main">
           <Routes>
             <Route index element={<Home />} />

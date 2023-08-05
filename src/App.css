@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
 }
 .backdrop {
-  transition: all .3s;
+  transition: all 0.3s;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -54,7 +54,7 @@ body {
 }
 
 @media screen and (max-width: 630px) {
-  .ul {
+  .top .ul {
     display: none !important;
     flex-direction: column;
     padding: 120px 30px 0 20px;
@@ -63,18 +63,18 @@ body {
     background-color: #333d4b;
     top: 0;
     bottom: 0;
-    z-index:9;
+    z-index: 9;
   }
-  .ul li {
+  .top .ul li {
     margin-bottom: 20px;
   }
-  .menu-burger {
+  .top .menu-burger {
     display: flex;
   }
-  .menu-burger-open {
+  .top .menu-burger-open {
     display: block !important;
   }
-  .logo {
+  .top .logo {
     position: absolute;
     left: 24px;
   }
