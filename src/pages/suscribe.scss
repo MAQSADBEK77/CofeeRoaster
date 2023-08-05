@@ -1,0 +1,48 @@
+.suscribe {
+  max-width: 1280px;
+  margin: 0 auto;
+  .create-cofee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 32px;
+    height: 450px;
+    margin-bottom: 150px;
+    padding-left: 86px;
+    background: url(../assets/images/create_cofee.png);
+    h1 {
+      color: #fefcf7;
+      font-family: "Fraunces", serif;
+      font-size: 72px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 72px;
+      width: 450px;
+    }
+    p {
+      width: 450px;
+      color: #fefcf7;
+      opacity: 0.8;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+    }
+  }
+  .shags {
+    border-radius: 8px 0px 0px 8px;
+    background: #333d4b;
+    padding-top: 120px;
+    padding-bottom: 90px;
+    margin-bottom: 150px;
+    .steps-ch {
+        h5 {
+          color: #fefcf7;
+        }
+        p {
+          color: #fefcf7;
+        }
+        
+    }
+  }
+}

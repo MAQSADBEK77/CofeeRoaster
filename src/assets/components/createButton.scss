@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap");
+button {
+  color: #fefcf7;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 217px;
+  background: #0e8784;
+  padding: 15px 0;
+}
+button:hover {
+      transition: all .3s;
+      transform: scale(107%);
+  background: #66d2cf;
+}
